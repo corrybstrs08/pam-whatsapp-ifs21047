@@ -70,8 +70,8 @@ class ChatFragment : Fragment() {
     }
 
     private fun showSelectedChat(chat: Chat) {
-        val intentWithData = Intent(requireContext(), MainActivity::class.java)
-        intentWithData.putExtra(MainActivity.EXTRA_CHAT, chat)
+        val intentWithData = Intent(requireContext(), DetailChatActivity::class.java)
+        intentWithData.putExtra(DetailChatActivity.EXTRA_CHAT, chat)
         startActivity(intentWithData)
     }
 }

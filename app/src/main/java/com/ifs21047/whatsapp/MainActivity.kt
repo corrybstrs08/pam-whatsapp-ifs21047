@@ -1,5 +1,6 @@
 package com.ifs21047.whatsapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
@@ -15,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setupView()
         setupAction()
+
     }
     private fun setupView() {
         binding.inAppBar.toolbar.overflowIcon =
@@ -79,6 +81,17 @@ class MainActivity : AppCompatActivity() {
                 else -> true
             }
         }
+        binding.inAppBar.toolbar.setOnMenuItemClickListener { menuItem ->
+            when (menuItem.itemId) {
+                // kode menu lainnya...
+                R.id.detail -> {
+                    startActivity(Intent(this, DetailChatActivity::class.java))
+                    true
+                }
+                else -> true
+            }
+        }
+
     }
 
     private fun loadFragment(flag: String, message: String? = null) {
@@ -151,6 +164,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     companion object {
         val EXTRA_STATUS = "extra_status"
         const val EXTRA_CALL = "extra_call"
@@ -158,6 +172,6 @@ class MainActivity : AppCompatActivity() {
         const val FLAG_FRAGMENT_STATUS = "fragment_status"
         const val FLAG_FRAGMENT_KOMUNITAS = "fragment_komunitas"
         const val FLAG_FRAGMENT_CALL = "fragment_call"
-        const val EXTRA_CHAT = "extra_chat"
+        const val FLAG_FRAGMENT_DETAIL_CHAT = "fragment_detail_chat"
     }
 }
