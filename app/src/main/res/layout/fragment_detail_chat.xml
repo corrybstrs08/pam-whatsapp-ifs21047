@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/hijau"
+        android:padding="20dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corry Sitorus"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/video"
+            android:layout_width="31dp"
+            android:layout_height="36dp"
+            android:src="@drawable/video"
+            android:layout_marginStart="130dp"/>
+
+        <ImageView
+            android:id="@+id/tlpn"
+            android:layout_width="31dp"
+            android:layout_height="36dp"
+            android:src="@drawable/tlpn"
+            android:layout_marginStart="20dp"/>
+
+        <ImageView
+            android:id="@+id/stln"
+            android:layout_width="31dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_more_vert"
+            android:layout_marginStart="20dp"/>
+
+    </LinearLayout>
+
+    <!-- Chat List -->
+    <ScrollView
+        android:id="@+id/chatScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/messageInputLayout"
+        android:layout_below="@id/header"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:id="@+id/chatContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <!-- Message Input -->
+    <LinearLayout
+        android:id="@+id/messageInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:hint="Type a message..."
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/buttonSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+    </LinearLayout>
+
+</RelativeLayout>

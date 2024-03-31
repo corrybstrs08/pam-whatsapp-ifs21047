@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.WhatsApp."
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/hijau</item>
+        <item name="colorPrimaryDark">@color/hijau</item>
+    </style>
+    <style name="Theme.WhatsApp"
+        parent="Base.Theme.WhatsApp." />
+</resources>

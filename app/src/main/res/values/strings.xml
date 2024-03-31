@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="gambar_profil">Foto Profil</string>
+    <string name="nama">Nama</string>
+    <string name="pesan">Isi Pesan</string>
+    <string name="waktu">Waktu</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="gambar_panggilan">Gambar Call</string>
+    <string name="gambar_panah">Gambar Panah</string>
+    <string name="komunitas">Nama Komunitas</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="jam">Jam di Upload</string>
+    <string name="user_status">Profil Status</string>
+
+    <string-array name="user_status">
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+        <item>@drawable/profil_status</item>
+    </string-array>
+
+    <string-array name="gambar_profil">
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+        <item>@drawable/profil</item>
+    </string-array>
+
+    <string-array name="nama">
+        <item>Corry Betriks</item>
+        <item>Ria Sitorus</item>
+        <item>Indriani S</item>
+        <item>Betriks S</item>
+        <item>Adinda Ria</item>
+        <item>Jelita Sitorus</item>
+        <item>Indriani Natalia</item>
+        <item>Corry Sitorus</item>
+        <item>Ria Jelita</item>
+        <item>Natalia Sitorus</item>
+        <item>Corry Betriks</item>
+        <item>Ria Sitorus</item>
+        <item>Indriani S</item>
+        <item>Betriks S</item>
+        <item>Adinda Ria</item>
+        <item>Jelita Sitorus</item>
+        <item>Indriani Natalia</item>
+        <item>Corry Sitorus</item>
+        <item>Ria Jelita</item>
+        <item>Natalia Sitorus</item>
+    </string-array>
+
+    <string-array name="pesan">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</item>
+    </string-array>
+
+    <string-array name="gambar_panggilan">
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+        <item>@drawable/video_call</item>
+        <item>@drawable/calling</item>
+    </string-array>
+
+    <string-array name="gambar_panah">
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+        <item>@drawable/panah_atas</item>
+        <item>@drawable/panah_bawah</item>
+    </string-array>
+
+    <string-array name="waktu">
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+        <item>Hari ini 06.55</item>
+    </string-array>
+
+    <string-array name="tanggal">
+        <item>Kemaren</item>
+        <item>Kemaren</item>
+        <item>Kemaren</item>
+        <item>29/03/24</item>
+        <item>29/03/24</item>
+        <item>29/03/24</item>
+        <item>28/03/24</item>
+        <item>28/03/24</item>
+        <item>28/03/24</item>
+        <item>28/03/24</item>
+        <item>27/03/24</item>
+        <item>27/03/24</item>
+        <item>27/03/24</item>
+        <item>24/03/24</item>
+        <item>24/03/24</item>
+        <item>24/03/24</item>
+        <item>23/03/24</item>
+        <item>23/03/24</item>
+        <item>23/03/24</item>
+        <item>22/03/24</item>
+        <item>22/03/24</item>
+        <item>22/03/24</item>
+        <item>21/03/24</item>
+        <item>21/03/24</item>
+    </string-array>
+
+    <string-array name="jam">
+        <item>1 menit yang lalu</item>
+        <item>5 menit yang lalu</item>
+        <item>10 menit yang lalu</item>
+        <item>15 menit yang lalu</item>
+        <item>22 menit yang lalu</item>
+        <item>59 menit yang lalu</item>
+        <item>15.00</item>
+        <item>14.33</item>
+        <item>13.57</item>
+        <item>13.00</item>
+        <item>12.12</item>
+        <item>10.16</item>
+        <item>06.52</item>
+        <item>06.37</item>
+        <item>05.00</item>
+        <item>03.59</item>
+        <item>01.12</item>
+        <item>Kemarin</item>
+        <item>Kemarin</item>
+        <item>Kemarin</item>
+    </string-array>
+
+</resources>
